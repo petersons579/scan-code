@@ -21,7 +21,7 @@ const ProductDetail = () => {
     const success = useSelector(successSelector);
 
     const handleBack = () => dispatch(clearProduct());
-    console.log(data);
+    
     return (
         <View style={styles.container}>
             <View style={{ alignItems: 'center', marginHorizontal: 30 }}>
